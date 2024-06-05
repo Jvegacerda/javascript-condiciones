@@ -1,0 +1,54 @@
+.ejercicio1 img {
+  height: 300px;
+  margin: 0 2rem;
+}
+
+#imagen img {
+  border: solid 2px red;
+}
+
+/* Ejercicio 2 */
+
+.ejercicio2 p {
+  margin-left: 2rem;
+}
+
+.ejercicio2 img {
+  height: 250px;
+}
+
+.ejercicio2 #stickers {
+  display: flex;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  align-items: center;
+}
+
+.card select {
+  width: 50px;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.ejercicio2 button {
+  margin-left: 24.6rem;
+}
+
+/* Ejercicio 3 */
+
+.ejercicio3 .borderpass {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding: 3rem;
+  border: solid 3px black;
+  align-items: center;
+}
+
+.passbtn {
+  margin-top: 1rem;
+}
