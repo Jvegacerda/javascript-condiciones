@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
@@ -10,8 +10,8 @@
     <!-- Ejercicio 1 -->
     <div class="ejercicio1">
       <h2>Ejercicio 1</h2>
-      <div id="imagen">
-        <img src="./assets/img/Stone.webp" alt="stone age" />
+      <div>
+        <img src="./assets/img/Stone.webp" id="imagen" alt="stone age" />
       </div>
     </div>
 
@@ -22,49 +22,20 @@
       <div id="stickers">
         <div class="card">
           <img src="./assets/img/001 - dune.webp" alt="dune" />
-          <select id="select1">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-          </select>
+          <input id="num1" type="number" />
         </div>
         <div class="card">
           <img src="./assets/img/002 - everdell.webp" alt="everdell" />
-          <select id="select2">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-          </select>
+          <input id="num2" type="number" />
         </div>
         <div class="card">
           <img src="./assets/img/003 - cascadia.webp" alt="cascadia" />
-          <select id="select3">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-          </select>
+          <input id="num3" type="number" />
         </div>
       </div>
+      <p id="validarstickers"></p>
       <button id="btne2">Validar</button>
-      <p class="validarstickers"></p>
+      
     </div>
 
     <!-- Ejercicio 3 -->
@@ -107,9 +78,10 @@
             <option value="9">9</option>
           </select>
         </div>
-        <button class="passbtn">Ingresar</button>
+        <button id="passbtn">Ingresar</button>
+        <p id="passp">Estado del password</p>
       </div>
     </div>
+    <script src="./assets/js/index.js"></script>
   </body>
-  <link rel="stylesheet" href="./assets/js/index.js" />
 </html>
